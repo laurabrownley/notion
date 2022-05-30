@@ -1,0 +1,150 @@
+{
+  "parent": {
+    "database_id": "818626caaed5473fbd24581c1d60f8c3"
+  },
+  "icon": {
+    "type": "external",
+    "external": {
+      "url": "url text"
+    }
+  },
+  "properties": {
+    "Book name": {
+      "type": "title",
+      "title": [
+        {
+          "text": {
+            "content": "test title"
+          }
+        }
+      ]
+    },
+    "Author": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "bob smith"
+          }
+        }
+      ]
+    },
+    "Status": {
+      "select": {
+        "name": "Want to read"
+      }
+    },
+    "Genres (books)": {
+      "type": "relation",
+      "relation": [
+        {
+          "id": "a740f600897a4f468b7e4404403fd1c6"
+        }
+      ]
+    },
+    "Kindle Unlimited": {
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "TBR": {
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Book Cover": {
+      "type": "files",
+      "files": [
+        {
+          "name": "image",
+          "type": "external",
+          "external": {
+            "url": "url txt"
+          }
+        }
+      ]
+    },
+    "Goodreads Link": {
+      "type": "url",
+      "url": "url txt"
+    },
+    "Total pages": {
+      "type": "number",
+      "number": 300
+    },
+    "Amazon": {
+      "type": "url",
+      "url": "url txt"
+    }
+  },
+  "Children": [
+    {
+      "object": "block",
+      "created_by": {
+        "id": "0aebb422-74ba-422d-8c3d-220fea0b1d3e",
+        "object": "user"
+      },
+      "archived": false,
+      "id": "d3203878-8485-4f8e-a196-1f01be588e1f",
+      "last_edited_by": {
+        "id": "0aebb422-74ba-422d-8c3d-220fea0b1d3e",
+        "object": "user"
+      },
+      "last_edited_time": "2022-05-28T05:57:00.000Z",
+      "type": "column",
+      "has_children": true,
+      "created_time": "2022-01-14T22:51:00.000Z",
+      "callout": {
+        "rich_text": [
+          {
+            "annotations": {
+              "code": false,
+              "bold": true,
+              "underline": false,
+              "italic": false,
+              "strikethrough": false,
+              "color": "default"
+            },
+            "plain_text": "Thoughts",
+            "type": "text",
+            "href": null,
+            "text": {
+              "content": "Thoughts",
+              "link": null
+            }
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💭"
+        },
+        "color": "default"
+      },
+      "column_list": {},
+      "column": {},
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "quote": {
+        "rich_text": [
+          {
+            "annotations": {
+              "code": false,
+              "bold": true,
+              "underline": false,
+              "italic": false,
+              "strikethrough": false,
+              "color": "default"
+            },
+            "plain_text": "Quotes",
+            "type": "text",
+            "href": null,
+            "text": {
+              "content": "Quotes",
+              "link": null
+            }
+          }
+        ],
+        "color": "blue_background"
+      }
+    }
+  ]
+}
